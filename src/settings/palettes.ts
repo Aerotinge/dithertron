@@ -162,6 +162,7 @@ export const CGA_RGB_3 = [0x000000, 0xAAAA00, 0x0000AA, 0xAAAAAA];
 export const CGA_RGB_1H = [0x000000, 0x55FF55, 0x5555FF, 0x55FFFF];
 export const CGA_RGB_2H = [0x000000, 0xFFFF55, 0xFF55FF, 0xFFFFFF];
 export const CGA_RGB_3H = [0x000000, 0xFFFF00, 0x5555FF, 0xFFFFFF];
+export const EGA_RGB = generateRGBPalette(2, 2, 2);
 export const SMS_RGB = generateRGBPalette(2, 2, 2);
 export const WILLIAMS_RGB = generateRGBPalette(3, 3, 2);
 export const ATARIST_RGB = generateRGBPalette(3, 3, 3);

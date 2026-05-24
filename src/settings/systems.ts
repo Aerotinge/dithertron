@@ -918,9 +918,10 @@ export const SYSTEMS: (DithertronSettings | null)[] = [
         height: 350,
         scaleX: 350 / 640 * 1.37,
         conv: 'DitheringCanvas',
-        pal: palettes.CGA_RGB,
+        pal: palettes.EGA_RGB,
+		reduce: 16,
         toNative: 'exportFrameBuffer',
-        exportFormat: { bpp: 1, np: 4 },
+        exportFormat: { bpp: 4 },
     },
     {
         id: 'williams',
